@@ -167,7 +167,7 @@
     (symbol "CH551G_0_1"
       (rectangle (start -26.67 10.16) (end 25.4 -17.78)
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
+        (fill (type background))
       )
     )
     (symbol "CH551G_1_1"
