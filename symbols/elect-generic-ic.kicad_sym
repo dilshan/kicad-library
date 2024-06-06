@@ -1670,7 +1670,7 @@
 					(type background)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -6.35 2.54 0)
 				(length 2.54)
 				(name ""
@@ -1706,7 +1706,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -6.35 -2.54 0)
 				(length 2.54)
 				(name ""
@@ -1724,7 +1724,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 6.35 -2.54 180)
 				(length 2.54)
 				(name ""
@@ -1760,7 +1760,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 6.35 2.54 180)
 				(length 2.54)
 				(name ""
@@ -2586,7 +2586,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_in line
 				(at 0 11.43 270)
 				(length 2.54)
 				(name "VCC"
@@ -2694,7 +2694,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_in line
 				(at 0 -11.43 90)
 				(length 2.54)
 				(name "GND"
