@@ -2251,32 +2251,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -0.254 29.464 0)
+			(at 14.986 23.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at -10.16 11.43 0)
+		(property "Value" "TDA1516BQ"
+			(at 15.24 20.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at -10.16 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -10.16 11.43 0)
+		(property "Footprint" "Simtelic:MULTIWAT-SIL13"
+			(at 0 -32.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2284,8 +2275,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at -10.16 11.43 0)
+		(property "Datasheet" "https://pdf.datasheetcatalog.com/datasheet/philips/TDA1516.pdf"
+			(at -0.254 32.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "24W BTL or 2 x 12 watt stereo car radio power amplifier"
+			(at 0 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2431,7 +2431,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -19.05 -11.43 0)
 				(length 2.54)
 				(name "Vref"
@@ -2449,7 +2449,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 17.78 11.43 180)
 				(length 2.54)
 				(name "OUT1"
@@ -2521,7 +2521,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 17.78 -11.43 180)
 				(length 2.54)
 				(name "OUT2"
