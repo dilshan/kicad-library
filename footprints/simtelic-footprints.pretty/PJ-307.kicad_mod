@@ -1,0 +1,233 @@
+(footprint "PJ-307"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "https://datasheet.lcsc.com/szlcsc/Boom-Precision-Elec-PJ-307C_C16684.pdf")
+	(property "Reference" "REF**"
+		(at 5.5 0 -90)
+		(layer "F.SilkS")
+		(uuid "3be20c3b-6b17-4722-8106-94561f6e9e6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PJ-307"
+		(at -5.5 0 90)
+		(layer "F.Fab")
+		(uuid "c7bfe0e7-ff54-41df-9269-59fc49bf4a5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "PJ-307"
+		(at 0 -8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2a9069f-4ac0-49df-96c9-7f7e40710272")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17cdabed-c2a4-4698-8792-c6c471962742")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "PJ-307 3.5mm Stereo Jack Socket"
+		(at 0 -10.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26d7accb-3ba5-4b0a-9d62-972910e2684d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.5 4)
+		(end -6.5 -4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "194337c8-6f5b-45c7-b741-dbd40b5049fd")
+	)
+	(fp_line
+		(start -6 -6)
+		(end -6 -4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b509b952-5077-4ec0-8bab-8b7208d8a7b9")
+	)
+	(fp_line
+		(start -6 -6)
+		(end 4.5 -6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d338e019-f8f4-4a7e-b287-d58eac9cb444")
+	)
+	(fp_line
+		(start -6 -4)
+		(end -6.5 -4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "768a59e5-dafd-4f34-b4cb-7e91ae2f2a48")
+	)
+	(fp_line
+		(start -6 4)
+		(end -6.5 4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8224721-4931-4497-9d0f-ccfc1e66ac11")
+	)
+	(fp_line
+		(start -6 6)
+		(end -6 4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "720b92fe-bb94-4815-b299-7870c64be877")
+	)
+	(fp_line
+		(start 4.5 -6)
+		(end 4.5 6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac7afc20-0adc-452a-8b36-baafc32dc6c9")
+	)
+	(fp_line
+		(start 4.5 6)
+		(end -6 6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8cc6e962-d535-4f6e-aa4c-02691c865f4f")
+	)
+	(fp_poly
+		(pts
+			(xy -6.5 -3) (xy -6.5 3) (xy -9.5 3) (xy -9.5 -3)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "3befd509-5174-459e-9858-18c3a9b62139")
+	)
+	(pad "" np_thru_hole circle
+		(at -5.5 -5)
+		(size 1.2 1.2)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(uuid "d80487f2-dc64-4b52-83f5-4f706ae98c97")
+	)
+	(pad "" np_thru_hole circle
+		(at -5.5 5)
+		(size 1.2 1.2)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(uuid "c0539250-8009-4f9c-9b9e-aa8900bec46b")
+	)
+	(pad "" np_thru_hole circle
+		(at -3 -5)
+		(size 1.2 1.2)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(uuid "84542008-b590-44c8-8d50-a21258baefa8")
+	)
+	(pad "" np_thru_hole circle
+		(at -3 5)
+		(size 1.2 1.2)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(uuid "7cce0f40-4ddf-4539-8104-6b015a7cc0c6")
+	)
+	(pad "" np_thru_hole circle
+		(at 2 0)
+		(size 1.2 1.2)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(uuid "461e4b57-da44-46f7-b0ed-1171ef277685")
+	)
+	(pad "G" thru_hole oval
+		(at -3 0 90)
+		(size 2.5 1.8)
+		(drill oval 1.7 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b473985e-cb22-4802-9e9c-5e4825f7ce92")
+	)
+	(pad "S" thru_hole oval
+		(at 2 -5)
+		(size 2.5 1.8)
+		(drill oval 1.7 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c974011b-a38f-416e-944d-8309be7e28cc")
+	)
+	(pad "SN" thru_hole oval
+		(at 2 -2.5)
+		(size 2.5 1.8)
+		(drill oval 1.7 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f62872ec-e4d0-45c3-bb63-3e50f030fe62")
+	)
+	(pad "T" thru_hole oval
+		(at 2 5)
+		(size 2.5 1.8)
+		(drill oval 1.7 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "83af3518-9c4f-4f75-abc8-a7f49f44357c")
+	)
+	(pad "TN" thru_hole oval
+		(at 2 2.5)
+		(size 2.5 1.8)
+		(drill oval 1.7 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "73bdbe92-e4fa-4d65-b1c3-09fb0a368411")
+	)
+)
