@@ -102,9 +102,9 @@
 		(layer "F.SilkS")
 		(uuid "540f85c2-fc9d-4a7a-aeea-3d484222a7f9")
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole oval
 		(at 0 0)
-		(size 3.5 3.5)
+		(size 3.5 5)
 		(drill 2.0828)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -113,16 +113,16 @@
 	)
 	(pad "2" thru_hole rect
 		(at -5.08 0)
-		(size 3.5 3.5)
+		(size 3.5 5)
 		(drill 2.0828)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
 		(uuid "6312d5d7-caee-4bb8-bc4d-70ed53368e7e")
 	)
-	(pad "3" thru_hole circle
+	(pad "3" thru_hole oval
 		(at 5.08 0)
-		(size 3.5 3.5)
+		(size 3.5 5)
 		(drill 2.0828)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
