@@ -1,0 +1,140 @@
+(footprint "6.35mm Quick Connect Vertical PCB Mount Spade"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.5 -2.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c1e955e3-ef23-48a5-828c-663cbeaea19c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "6.35mm Quick Connect Vertical PCB Mount Spade"
+		(at -0.5 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f59c6177-ae5f-46e4-85a9-58f165723155")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "6.35mm Quick Connect Vertical PCB Mount Spade"
+		(at 0 -4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44af8971-73a8-45c2-b5e6-fd80bb7fa0d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://drive.google.com/file/d/14FQ2Eag3RkPCczzbMkBiMfewXzIa3PUs/view"
+		(at -2.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8814344b-f445-4a42-84b1-b62ead144784")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "6.35mm Vertical PCB Mount Spade "
+		(at -2.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90b4b619-deb4-4141-88d6-c97424beaef9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.5 -2)
+		(end 4.5 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6d327cb5-71ba-4286-8331-f6ec6553a49d")
+	)
+	(fp_line
+		(start -4.5 2)
+		(end -4.5 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cc00d1b3-fd66-41a0-896d-4cb6c75c873b")
+	)
+	(fp_line
+		(start 4.5 -2)
+		(end 4.5 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9dd18950-d2f9-4091-8cdb-6523c5033ad6")
+	)
+	(fp_line
+		(start 4.5 2)
+		(end -4.5 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1e26b447-0693-4cf2-bf64-09a639900c27")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.25 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "86434166-e6fa-4fa4-9d6f-e5cec51f5e34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 3.5 3.5)
+		(drill 1.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "b4174302-7fe4-4e05-a49d-83598498aba4")
+	)
+	(pad "1" thru_hole circle
+		(at 2.58 0)
+		(size 3.5 3.5)
+		(drill 1.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "ab38dfd6-0feb-43cc-96c9-080484f9e9dd")
+	)
+)
