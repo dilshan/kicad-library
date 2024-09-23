@@ -1,0 +1,132 @@
+(footprint "3590S Precision Potentiometer Wire"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.75 0)
+		(layer "F.SilkS")
+		(uuid "0a9b7cb6-ae1b-4067-8ca7-87dcd231df19")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "3590S Precision Potentiometer Wire"
+		(at 0 -2.75 0)
+		(layer "F.Fab")
+		(uuid "55de04d9-5b16-4c72-9d49-0fae6dccf423")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "3590S Precision Potentiometer Wire"
+		(at 0 2.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "127c2c29-0f04-4626-8eb1-5039b7387bf9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d48e5f23-ae25-41fc-a8a1-4df0bff58f89")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f22b1b33-3a2c-4d12-9106-8f1781ca5503")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7.62 -3)
+		(end 7.75 -3)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "33ac4516-e7e2-4ab1-9b24-d4ee7e04765e")
+	)
+	(fp_line
+		(start -7.62 3)
+		(end -7.62 -3)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b933d4d-8e70-4aad-bc5c-d2d767b19f3b")
+	)
+	(fp_line
+		(start 7.75 3)
+		(end -7.62 3)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6273ad95-42b1-488b-8c4b-a5f8f8a53728")
+	)
+	(fp_line
+		(start 7.75 3)
+		(end 7.75 -3)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "540f85c2-fc9d-4a7a-aeea-3d484222a7f9")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3.5 3.5)
+		(drill 2.0828)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "47a44456-02fc-4062-9bdf-50a85ae46993")
+	)
+	(pad "2" thru_hole rect
+		(at -5.08 0)
+		(size 3.5 3.5)
+		(drill 2.0828)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "6312d5d7-caee-4bb8-bc4d-70ed53368e7e")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 3.5 3.5)
+		(drill 2.0828)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "f8c87f6c-38bb-4062-b627-f616b2a7c77f")
+	)
+)
