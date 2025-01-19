@@ -3545,6 +3545,7 @@
 		)
 	)
 	(symbol "RK097_SWITCH"
+		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3557,7 +3558,7 @@
 			)
 		)
 		(property "Value" ""
-			(at -10.414 11.176 0)
+			(at -8.255 10.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3565,7 +3566,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -10.414 11.176 0)
+			(at -8.255 10.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,7 +3575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -10.414 11.176 0)
+			(at -8.255 10.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3583,7 +3584,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -10.414 11.176 0)
+			(at -8.255 10.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3593,7 +3594,7 @@
 		)
 		(symbol "RK097_SWITCH_0_0"
 			(circle
-				(center -9.779 -1.651)
+				(center -7.62 -2.032)
 				(radius 0.508)
 				(stroke
 					(width 0)
@@ -3604,7 +3605,7 @@
 				)
 			)
 			(circle
-				(center -9.779 2.413)
+				(center -7.62 2.032)
 				(radius 0.508)
 				(stroke
 					(width 0)
@@ -3616,7 +3617,7 @@
 			)
 			(polyline
 				(pts
-					(xy -10.033 -1.143) (xy -11.557 1.905)
+					(xy -7.874 -1.524) (xy -9.398 1.524)
 				)
 				(stroke
 					(width 0)
@@ -3732,7 +3733,7 @@
 				)
 			)
 			(pin passive line
-				(at -9.779 5.461 270)
+				(at -7.62 5.08 270)
 				(length 2.54)
 				(name "B"
 					(effects
@@ -3750,7 +3751,7 @@
 				)
 			)
 			(pin passive line
-				(at -9.779 -4.699 90)
+				(at -7.62 -5.08 90)
 				(length 2.54)
 				(name "A"
 					(effects
