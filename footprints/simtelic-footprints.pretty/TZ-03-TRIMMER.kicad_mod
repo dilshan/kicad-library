@@ -1,0 +1,192 @@
+(footprint "TZ-03-TRIMMER"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Ceramic Trimmer Capacitor")
+	(property "Reference" "REF**"
+		(at 0 -4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1687ea4a-769f-46c5-9c51-7ead3c9ddae3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TZ-03-TRIMMER"
+		(at 0 6.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7ebfe4d6-1df6-4e34-b3cb-74b8873d00ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "TZ-03-TRIMMER"
+		(at 0 4.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ec2b415-1aee-4fb1-bd4a-e91942e3ef74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://octopart.com/datasheet/tz03z500e169b00-murata-221554"
+		(at 0 -6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4527cb2-f01f-4804-9198-b2e9fc673bbc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Ceramic Trimmer Capacitor"
+		(at 0 -8.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d9a9d85-999c-4b95-a0d1-8bfa0c795aa3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3 0.25)
+		(end -2 2.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "130fbbba-22fc-4de4-bfb6-d33d774eb0a1")
+	)
+	(fp_line
+		(start -2 2.75)
+		(end 0 2.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6c5099ff-bf5c-4d9d-b3ff-c70ccda2c68e")
+	)
+	(fp_line
+		(start -1.25 0.75)
+		(end 0.75 -1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c0234a59-c3fe-4663-9882-9bbe60bb415a")
+	)
+	(fp_line
+		(start -0.75 1.25)
+		(end 1.25 -0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ef1d7b39-5eb6-4fcb-957e-b765e842687e")
+	)
+	(fp_line
+		(start 0 2.75)
+		(end 2 2.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "29b21fd9-c0bc-4547-8f4c-e7ba3ad76045")
+	)
+	(fp_line
+		(start 2 2.75)
+		(end 3 0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7b7f98b3-0f75-4187-b4ab-d34334186774")
+	)
+	(fp_arc
+		(start -3 0.25)
+		(mid 0 -2.75)
+		(end 3 0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6fbd8211-7dd1-493f-9ca4-f9b1632192eb")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "da98ec0d-5d01-4645-b390-a1ac34b5d5e7")
+	)
+	(fp_rect
+		(start -3.25 -3.75)
+		(end 3.25 3.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Margin")
+		(uuid "e66a825c-8d04-4a12-81fd-65807e3fe3ef")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 8.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a6bab2c8-8f35-4c04-8019-d58451bcf700")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -2.75 270)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f6ddb190-3127-486a-a95d-e42b7e87e3f8")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.75 270)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7b9d7c93-6ca1-45ff-9e25-770f5ae8133b")
+	)
+)
