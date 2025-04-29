@@ -4067,7 +4067,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_LongPads"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
 			(at 0 -21.336 0)
 			(effects
 				(font
