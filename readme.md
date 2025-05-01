@@ -1,4 +1,4 @@
-#KiCAD Library
+# KiCAD Library
 
 This repository contains custom KiCAD libraries and symbols I designed and used in my projects. 
 
