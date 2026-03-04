@@ -1,7 +1,7 @@
 (footprint "PX088A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Alice Music Voice Module")
 	(tags "Music, Tone")
@@ -22,19 +22,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "376bc5bc-dc7a-4ff1-8ff1-67987300d710")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "PX088A"
-		(at 10.5 -1.5 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6b7dea6d-27df-4d6d-9a41-82aa34d5ea0e")
 		(effects
 			(font
 				(size 1 1)
@@ -199,17 +186,6 @@
 		(layer "Edge.Cuts")
 		(uuid "d334baed-6241-4de0-a4e3-e0706044b706")
 	)
-	(fp_rect
-		(start -0.5 -0.5)
-		(end 21 1.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "Margin")
-		(uuid "701339dc-fa20-42e7-9ced-e222f2d4c87f")
-	)
 	(fp_text user "${REFERENCE}"
 		(at 10.5 5 0)
 		(unlocked yes)
@@ -225,7 +201,7 @@
 	(pad "1" smd roundrect
 		(at 1.5 2.5)
 		(size 2.2 2)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "007f081f-a73e-44ce-ab60-13591a337f16")
@@ -233,7 +209,7 @@
 	(pad "2" smd roundrect
 		(at 5.5 2.5)
 		(size 2.2 2)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "097a9a77-2811-4276-8e2f-b436f1755b16")
@@ -241,7 +217,7 @@
 	(pad "3" smd roundrect
 		(at 10 2.5)
 		(size 3.2 2)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "6ed56f6a-0de4-4d43-8faf-d1ce01dbdb04")
@@ -249,7 +225,7 @@
 	(pad "4" smd roundrect
 		(at 14.5 2.5)
 		(size 3.2 2)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "89553ef3-0578-4cc4-9dcd-9aff341259c5")
@@ -257,9 +233,10 @@
 	(pad "5" smd roundrect
 		(at 19 2.5)
 		(size 3.2 2)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "972ef6d1-a4b3-47eb-9a8d-4de9eb4eeb09")
 	)
+	(embedded_fonts no)
 )
