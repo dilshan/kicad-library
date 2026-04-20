@@ -1,0 +1,178 @@
+(footprint "Potentiometer_Alps_RK163_Single_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1110U1Q 1110TNP 1110U2A 1110U0Q Potentiometer, horizontal, Alps RK163 Single, https://tech.alpsalpine.com/prod/e/pdf/potentiometer/rotarypotentiometers/rk16/rk16.pdf")
+	(tags "Potentiometer horizontal Alps RK163 Single")
+	(property "Reference" "REF**"
+		(at 10.200001 -0.05 270)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a10d1095-d1dd-45fd-9017-09a3dd7555c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Potentiometer_Alps_RK163_Single_Vertical"
+		(at -10.2 -0.05 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df4d6261-b37e-4e3b-9654-7d8c768d3d01")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cd06197-76e7-4e53-8b25-182d51eb27a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e956d8a-86ca-4e2b-b7d2-b18bda11fad4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy 0 -9) (xy 5 -12) (xy 5 -17) (xy 0 -20) (xy -5 -17) (xy -5 -12)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "00e7c5ba-0eb0-4db1-bac8-5f538531575a")
+	)
+	(fp_line
+		(start -6.5 -2)
+		(end -6.5 -9.338605)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "6094006a-bb83-4880-a071-34ed6c69e171")
+	)
+	(fp_line
+		(start -6.5 -2)
+		(end 6.5 -2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "fba6b2e7-4801-46e3-ab4d-167b6f9ba855")
+	)
+	(fp_line
+		(start 6.5 -2)
+		(end 6.5 -9.338605)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "9de8789b-6197-4024-a576-32704951382c")
+	)
+	(fp_arc
+		(start -6.5 -9.338605)
+		(mid 0 -22.8)
+		(end 6.5 -9.338605)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "00cd2948-5993-4226-ab69-15b596f7c5f9")
+	)
+	(fp_poly
+		(pts
+			(xy 0 -9) (xy 5 -12) (xy 5 -17) (xy 0 -20) (xy -5 -17) (xy -5 -12)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "727340a4-45bd-4477-b30f-4c4d2082582c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 7.8 0)
+		(layer "F.Fab")
+		(uuid "e153b07e-c054-4cdd-9a97-f10122c8673e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -14.5)
+		(size 9 9)
+		(drill 7.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "d2b7419d-1abc-485b-abc7-394f39f8e5ef")
+	)
+	(pad "1" thru_hole rect
+		(at -4.999999 0 270)
+		(size 3 3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "960e032b-6627-4be6-b651-3359890ab6af")
+	)
+	(pad "2" thru_hole circle
+		(at 0.000001 0 270)
+		(size 3 3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "24698926-9841-4895-b25f-f444fa0db590")
+	)
+	(pad "3" thru_hole circle
+		(at 5.000001 0 270)
+		(size 3 3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "53f4a414-1900-4054-9a70-175162a15d70")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Alps_RK163_Single_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
